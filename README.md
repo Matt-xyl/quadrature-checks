@@ -29,9 +29,9 @@ For the cubic example, Simpson's rule reproduces the known integral up to floati
 
 The formulas are implemented in short functions in [quadrature.py](quadrature.py). The [tests](test_quadrature.py) check an exact polynomial case, refinement on sine, a reversed interval, and invalid inputs. These are demonstration checks, not a proof of an error bound for an arbitrary function.
 
-## Scope and authorship
+## Scope
 
-This is a learning project maintained by [Matt-xyl](https://github.com/Matt-xyl). The implementation, tests, and documentation were prepared with AI assistance. It demonstrates a working artifact; it is not presented as independently written code or as a result from a private research study.
+This is a learning project maintained by [Matt-xyl](https://github.com/Matt-xyl).
 
 The program uses fixed demonstration functions. It does not evaluate arbitrary input code or read private files. It is intended for small experiments with smooth functions on finite intervals. It does not handle singular integrals or adaptive error control, and the displayed known integrals use Python floating-point values.
 
